@@ -11,6 +11,5 @@ services:
       - /path/to/appdata/config:/config
       - /path/to/downloads:/downloads
     ports:
-      - 6881:6881/udp
       - 8080:8080
     restart: unless-stopped
